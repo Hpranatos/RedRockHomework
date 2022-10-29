@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body{
+	        height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; 
+        }
+        .box {                      
+            width: 500px;
+            height: 600px;
+            
+            border: 1px solid black;
+                 }
+        .box div {  
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;         
+            width: 180px;
+            height: 50px;
+            background-color: #5cade6d8;
+        }
+        div div:hover{
+            background-color: #1a43ac;
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .box :hover{
+            cursor: pointer;
+        }
+        .box :hover{
+            transform: scale(1.2);
+            transition-duration: 500ms;
+        }
+        /* 只能搞成这种效果了，虽然有点好笑     */
+    </style>
+</head>
+<body>
+    <div class="box">
+       <img src="p2.png" width="500px" >
+       <h2>前端研发部</h2>
+       <p>将想法画成现实，让代码激发可能</p>
+       <p>我们手中有HTML，CSS，Js
+        我们能够在Web的世界里绘画出绚丽的光景
+        我们亦能借助Node.js，TS，React等工具
+        让代码激发无限潜能，创造属于自己的一万种可能
+        在这座充满刀光剑影、快意恩仇的互联网江湖里，更多的前端知识宝藏等你来寻找</p>
+        <div>加入我们</div>
+
+    </div>
+</body>
+</html>
